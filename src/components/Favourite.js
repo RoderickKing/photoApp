@@ -3,12 +3,12 @@ import './Favourite.css';
 
 const Favourite = (props) => {
 
-  const {url, category} = props.photoData;
+  const {url, description} = props.photoData;
 
   return (
     <div className='favourite'>
       <img src={url}/>
-      <p>Category: {category}</p>
+      <p>Description :{description}</p>
     </div>
   )
 }

@@ -6,12 +6,12 @@ const Photo = (props) => {
  //   props.likePhoto(props.photoData.id);
  // }
 
-  const {url, category} = props.photoData;
+  const {url, description} = props.photoData;
 
   return (
     <div className='photo'>
       <img src={url}/>
-      <p>Category: {category}</p>
+      <p>Description: {description}</p>
     </div>
   )
 }

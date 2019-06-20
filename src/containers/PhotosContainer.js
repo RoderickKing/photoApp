@@ -5,7 +5,8 @@ const mapStateToProps = (state) => {
   console.log(state);
   return {
     photos: state.photos,
-    category: state.category
+    category: state.category,
+    description : state.description
   };
 };
 
