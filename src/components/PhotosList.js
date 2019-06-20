@@ -27,7 +27,6 @@ const PhotosList = (props) => {
     return <Photo
       photoData={ photoData }
       key={photoData.id}
-      likePhoto={props.likePhoto}
     />
   });
   return (
