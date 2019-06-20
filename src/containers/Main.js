@@ -1,6 +1,6 @@
 // Favourites to be repaced by a google map
 // Work started 20/06/2019
-// Git branch categry changes
+// Git branch CategoryChanges
 //
 import React, { Component, Fragment } from "react";
 import PhotosContainer from "./PhotosContainer";
