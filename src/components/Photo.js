@@ -2,10 +2,7 @@ import React from 'react';
 import './Photo.css';
 
 const Photo = (props) => {
- // const handleLikeClick = (evt) => {
- //   props.likePhoto(props.photoData.id);
- // }
-
+ 
   const {url, description} = props.photoData;
 
   return (

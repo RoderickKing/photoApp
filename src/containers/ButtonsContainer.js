@@ -14,11 +14,10 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    filterCategory: (category,description) => {
+    filterCategory: (category) => {
       dispatch({
         type: 'FILTER_CATEGORY',
-        category,
-        description
+        category
       })
     }
   };

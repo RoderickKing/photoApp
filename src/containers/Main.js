@@ -4,10 +4,11 @@
 //
 import React, { Component, Fragment } from "react";
 import PhotosContainer from "./PhotosContainer";
-import FavouritesContainer from "./FavouritesContainer";
+import MapContainer from "./MapContainer";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import ButtonsContainer from './ButtonsContainer';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 
 const Main = (props) => {
@@ -18,7 +19,7 @@ const Main = (props) => {
         <Navbar />
         <ButtonsContainer />
         <Route exact path="/" component={PhotosContainer} />
-        <Route path="/favourites" component={FavouritesContainer} />
+        <Route path="/Map" component={MapContainer} />
       </Fragment>
     </Router>
   );
