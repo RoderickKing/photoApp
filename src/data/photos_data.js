@@ -21,7 +21,7 @@ const photosData = [
   {
     id: 4,
     url: 'images/landscape_2.jpg',
-    category: ['Landscape','Mountains','water','reflections','ice'],
+    category: ['Landscape','Mountains','water','Reflections','ice'],
     description : 'id = 4'
   },
    
