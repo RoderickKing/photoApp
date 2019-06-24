@@ -3,12 +3,13 @@ import './Photo.css';
 
 const Photo = (props) => {
  
-  const {url, description} = props.photoData;
+  const {url, description,category} = props.photoData;
 
   return (
     <div className='photo'>
       <img src={url}/>
       <p>Description: {description}</p>
+      <p>Keywords:{category}</p>
     </div>
   )
 }
