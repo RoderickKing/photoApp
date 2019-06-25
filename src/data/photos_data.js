@@ -8,7 +8,7 @@ const photosData = [
    {
     id: 2,
     url: 'images/landscape_1.jpg',
-    category: ['Landscape','Reflections','Snow'],
+    category: ['Landscape','Reflections','Snow','water'],
     description : 'id = 2'
   },
   {

@@ -8,7 +8,9 @@ const Button = (props) => {
 
   return (
     <div>
+      <aside>
       <button className='button' onClick={ handleCategoryClick } value={ props.category }>{ props.category }</button>
+      </aside>
     </div>
   )
 }
