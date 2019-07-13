@@ -16,11 +16,7 @@ const PhotosList = (props) => {
       return props.photos
     } else {
       return props.photos.filter(photo => {
-        for (let loop = 0; loop < photo.category.length; loop++) {
-          if (props.category === photo.category[loop]){
-             return true;
-          }
-        }
+        return photo.category === props.category;
       })
     }
   };
