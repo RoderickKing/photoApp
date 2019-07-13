@@ -12,11 +12,11 @@ import ButtonsContainer from '../containers/ButtonsContainer';
 const PhotosList = (props) => {
 
   const checkPhotos = () => {
-    if (props.category === 'Clear') {
+    if (props.category === null) {
       return props.photos
     } else {
       return props.photos.filter(photo => {
-        for (loop = 0; loop < photo.category.length; loop++) {
+        for (let loop = 0; loop < photo.category.length; loop++) {
           if (props.category === photo.category[loop]){
              return true;
           }
